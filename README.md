@@ -1,6 +1,6 @@
 # TSK
 
-![Alt Text](https://github.com/D3smond/TSK/blob/master/tsk%20print%201.PNG)
+![Alt Text](https://github.com/D3smond/TSK/blob/master/pins/tsk%20print%201.PNG)
 
 [+] TSK: it is a simple keylogger that uses telegram bot.
 
@@ -20,12 +20,12 @@ pyinstaller -w -F -i [icon] TSK.py
 
 # Prints
 
-![Alt Text](https://github.com/D3smond/TSK/blob/master/tsk%20print%202.PNG)
+![Alt Text](https://github.com/D3smond/TSK/blob/master/pins/tsk%20print%202.PNG)
 
-![Alt Text](https://github.com/D3smond/TSK/blob/master/tsk%20print%203.PNG)
+![Alt Text](https://github.com/D3smond/TSK/blob/master/pins/tsk%20print%203.PNG)
 
-![Alt Text](https://github.com/D3smond/TSK/blob/master/tsk%20print%204.PNG)
+![Alt Text](https://github.com/D3smond/TSK/blob/master/pins/tsk%20print%204.PNG)
 
-![Alt Text](https://github.com/D3smond/TSK/blob/master/tsk%20print%205.PNG)
+![Alt Text](https://github.com/D3smond/TSK/blob/master/pins/tsk%20print%205.PNG)
 
 #Thanks to use!
